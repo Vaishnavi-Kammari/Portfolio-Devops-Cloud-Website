@@ -3,14 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cloud Portfolio</title>
+<title>Cloud Portfolio | Vaishnavi Kammari</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- Header -->
 <header>
 <h1>Vaishnavi Kammari</h1>
 <p>Aspiring DevOps & Cloud Engineer</p>
+
 <nav>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -19,39 +22,106 @@
 </nav>
 </header>
 
+<!-- Hero Section -->
 <section class="hero">
-<h2>Welcome to my Cloud Portfolio</h2>
-<img src="assets/devops.png" alt="DevOps" width="250">
-<p>Hosted on Azure Virtual Machine</p>
-<button onclick="showMessage()">Hire Me</button>
+<h2>Welcome to My Cloud Portfolio</h2>
+
+<img src="assets/devops.png" alt="DevOps Engineer" class="hero-img">
+
+<p>Hosted on Azure Virtual Machine using Nginx</p>
+
+<a href="#projects" class="btn">View Projects</a>
 </section>
 
+<!-- About Section -->
 <section id="about">
 <h2>About Me</h2>
-<p>I am passionate about Azure, AWS, Linux, Docker, Kubernetes and CI/CD.</p>
+
+<p>
+I am passionate about Cloud Computing, DevOps automation, Linux Administration,
+CI/CD pipelines, Docker, Kubernetes, and scalable Azure deployments.
+</p>
 </section>
 
+<!-- Skills Section -->
 <section id="skills">
 <h2>Skills</h2>
-<ul>
-<li>Azure</li>
-<li>Linux</li>
-<li>Docker</li>
-<li>Jenkins</li>
-<li>Kubernetes</li>
-</ul>
+
+<div class="skills">
+
+<div class="card">
+<img src="assets/azure.png" alt="Azure" class="azure-logo">
+<h3>Cloud</h3>
+<p>Microsoft Azure, AWS Basics</p>
+</div>
+
+<div class="card">
+<img src="assets/devops.png" alt="DevOps" class="azure-logo">
+<h3>DevOps</h3>
+<p>Jenkins, GitHub Actions, CI/CD</p>
+</div>
+
+<div class="card">
+<h3>Containers</h3>
+<p>Docker, Kubernetes</p>
+</div>
+
+<div class="card">
+<h3>System Admin</h3>
+<p>Linux, Shell Scripting</p>
+</div>
+
+</div>
 </section>
 
+<!-- Projects Section -->
 <section id="projects">
 <h2>Projects</h2>
-<p>Azure VM Deployment | CI/CD Pipeline | Dockerized App</p>
+
+<div class="projects">
+
+<div class="card">
+<img src="assets/azure.png" alt="Azure Project" class="azure-logo">
+<h3>Azure VM Deployment</h3>
+<p>
+Created Azure resources, deployed frontend application on Linux VM,
+configured Nginx, and accessed through Public IP.
+</p>
+</div>
+
+<div class="card">
+<img src="assets/devops.png" alt="CI/CD" class="azure-logo">
+<h3>CI/CD Pipeline</h3>
+<p>
+Automated application deployment using Jenkins and GitHub integration.
+</p>
+</div>
+
+<div class="card">
+<img src="assets/bg.jpg" alt="Infrastructure" class="azure-logo">
+<h3>Cloud Infrastructure</h3>
+<p>
+Designed scalable infrastructure with networking and security rules.
+</p>
+</div>
+
+</div>
 </section>
 
+<!-- Contact Section -->
 <section id="contact">
 <h2>Contact</h2>
-<p>Email: vyshukammari@gmail.com</p>
+
+<p>Email: <a href="mailto:vyshukammari@gmail.com">vyshukammari@gmail.com</a></p>
+<p>GitHub: <a href="#" target="_blank">https://github.com/Vaishnavi-Kammari/</a></p>
 </section>
 
+<!-- Footer -->
+<footer>
+<p>© 2026 Vaishnavi Kammari | Cloud Portfolio</p>
+</footer>
+
 <script src="script.js"></script>
+
 </body>
 </html>
